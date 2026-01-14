@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --white: hsl(0, 100%, 100%);
+  --green-500: hsl(136, 64%, 51%);
+  --blue-950: hsl(233, 26%, 24%);
+  --gray-600: hsl(233, 8%, 62%);
+  --gray-50: hsl(0, 0%, 98%);
+  --cyan-400: hsl(192, 69%, 51%);
+  --gray-100: hsl(220, 16%, 96%);
+}
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--gray-50);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #fff;
+}
+
+.navbar ul li a {
+    padding: 15px;
+    color: var(--gray-600);
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid var(--green-500);
+}
+
+.navbar img {
+    margin-left: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar nav {
+    display: flex;
+}
+
+.navbar nav .btn-header {
+    margin-right: 50px;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border: none;
+}
+
+.btn-header,
+.content .btn-main {
+    border-radius: 22px;
+    opacity: 60%;
+    cursor: pointer;
+    font-size: 22px;
+    background: linear-gradient(30deg, var(--cyan-400), var(--green-500));
+    transition: opacity 0.2s;
+}
+
+.content .btn-main {
+    color: #fff;
+}
+
+.btn-header:hover,
+.content .btn-main:hover {
+    opacity: 0.7;
+}
+
+.area-1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    min-height: 80vh;
+}
+
+.content h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 350;
+}
+
+.content p {
+    line-height: 1.1;
+    font-size: 18px;
+    color: var(--gray-600);
+    margin: 24px 0;
+}
+
+.area-1 .image_area img {
+    margin-bottom: 300px;
+}
+
+
+
+
+
