@@ -158,5 +158,56 @@ a {
     margin-bottom: 72px;
 }
 
+#articles-section {
+    padding: 4rem 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
+#articles-section .article-card {
+  flex: 1;          
+  width: 255px;
+  height: 390px;
+}
+
+#articles-section div {
+  display: flex; 
+  gap: 20px;   
+  flex-wrap: wrap;
+}
+
+#articles-section .article-card img {
+  width: 100%;
+  display: block;
+  height: 200px;
+}
+
+#articles-section h1 {
+    margin-bottom: 56px;
+    text-align: left;
+    color: var(--blue-950);
+}
+
+.article-content p {
+    color: var(--gray-600);
+    font-size: 14px;
+    text-align: left;
+}
+
+.article-content small {
+    margin: 24px 0 16px;
+}
+
+.article-content h3 {
+    text-align: left;
+}
+
+.article-content h3 a {
+    color: var(--blue-950);
+    line-height: 1.2;
+}
+.article-card img {
+    border-radius: 8px;
+}
 
